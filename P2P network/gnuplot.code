@@ -1,0 +1,6 @@
+set terminal pdf
+set output "throughput.pdf"
+set title "Throughput Vs PacketSize"
+set xlabel "Node Number"
+set ylabel "Throughput in bps"
+plot "throughput.txt" using 1:2 with linespoints title "1024","throughput.txt" using 1:3 with linespoints title "512"
