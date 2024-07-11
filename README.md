@@ -59,7 +59,7 @@ $ ./NetAnim
 ## Using Tracemetrics
 
 TraceMetrics is a trace file analyzer for NS-3. <br />
-1. Download the software from the link (TraceMetrics)[https://sourceforge.net/projects/tracemetrics/]
+1. Download the software from the link [TraceMetrics](https://sourceforge.net/projects/tracemetrics/)
 2. Extract the zip file in the Home folder.
 3. ```
    $ cd tracemetrics-1.4.0
