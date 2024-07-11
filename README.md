@@ -46,3 +46,44 @@ $ cd ns-allinone-3.41/ns-3.41
 $ cd ./ns3 run scratch/<program_name>
 ```
 
+## Using NetAnim
+
+NetAnim animates a previously executed simulation using an XML trace file generated during a simulation. <br />
+1. To open NetAnim use the following command,
+```
+$ cd ns-allinone-3.41/netanim-3.109
+$ ./NetAnim
+```
+2. Use the file button to open the xml file.
+
+## Using Tracemetrics
+
+TraceMetrics is a trace file analyzer for NS-3. <br />
+1. Download the software from the link (TraceMetrics)[https://sourceforge.net/projects/tracemetrics/]
+2. Extract the zip file in the Home folder.
+3. ```
+   $ cd tracemetrics-1.4.0
+   $ java -jar tracemetrics.jar
+   ```
+4. Once the software opens, choose the tr file to be analyzed.
+
+## Running .plt files
+
+Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms. <br />
+Use the following command to run the .plt file,
+```
+$ cd gnuplot gnu.plt
+```
+
+## Running PCAP files
+
+To open a .pcap file, <br />
+```
+wireshark <filename>
+```
+OR <br />
+```
+tcpdump -n -t -r <filename>
+```
+
+
